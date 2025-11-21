@@ -1,1 +1,26 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
+function Hero() {
+
+  return (
+    <>
+      <nav>
+          <div className="navbar">
+              <div className="logo">Devcheque</div>
+              <div className="nav-link">
+                  <a href="#">About Us</a>
+                  <a href="#">Projects</a>
+                  <a href="#">Services</a>
+                  <a href="#">How we work</a>
+              </div>
+              <div className="btn">Start your Project</div>
+          </div>
+      </nav>
+    </>
+  )
+}
+
+export default Hero
