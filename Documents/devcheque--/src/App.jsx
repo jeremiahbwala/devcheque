@@ -8,7 +8,16 @@ function App() {
   return (
     <>
       <nav>
-          <img src="src/assets/image 1.png />
+          <div className="navbar">
+              <div className="logo">Devcheque</div>
+              <div className="nav-link">
+                  <a href="#">About Us</a>
+                  <a href="#">Projects</a>
+                  <a href="#">Services</a>
+                  <a href="#">How we work</a>
+              </div>
+              <div className="btn">Start your Project</div>
+          </div>
       </nav>
     </>
   )
