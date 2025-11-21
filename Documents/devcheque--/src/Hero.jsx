@@ -7,18 +7,12 @@ function Hero() {
 
   return (
     <>
-      <nav>
-          <div className="navbar">
-              <div className="logo">Devcheque</div>
-              <div className="nav-link">
-                  <a href="#">About Us</a>
-                  <a href="#">Projects</a>
-                  <a href="#">Services</a>
-                  <a href="#">How we work</a>
-              </div>
-              <div className="btn">Start your Project</div>
+      <div className="hero">
+          <div className="headline">
+          <p>Desig. Develop. Deploy.
+          Get Your Product Cut Launched in Week.</p>
           </div>
-      </nav>
+      </div>
     </>
   )
 }
